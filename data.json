@@ -1,0 +1,599 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category": "Short Term Goals"
+    },
+    {
+      "id": 2,
+      "category": "Long Term Goals"
+    },
+    {
+      "id": 3,
+      "category": "Company Improvement"
+    },
+    {
+      "id": 4,
+      "category": "Self Improvement"
+    },
+    {
+      "id": 5,
+      "category": "Manager Improvement"
+    },
+    {
+      "id": 6,
+      "category": "Happiness"
+    },
+    {
+      "id": 7,
+      "category": "Personal Life"
+    },
+    {
+      "id": 8,
+      "category": "Team Relationships"
+    },
+    {
+      "id": 9,
+      "category": "Work Habits"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryid": 1,
+      "question": "How is [project] going? What could we do to make it better?"
+    },
+    {
+      "id": 2,
+      "categoryid": 1,
+      "question": "Is there anything blocking you from getting your work done?"
+    },
+    {
+      "id": 3,
+      "categoryid": 1,
+      "question":
+        "Are there any projects you’d really like to work on if you were given the opportunity?"
+    },
+    {
+      "id": 4,
+      "categoryid": 1,
+      "question":
+        "What parts of your job would you like to deepen your skills in or get additional training in?"
+    },
+    {
+      "id": 5,
+      "categoryid": 1,
+      "question": "Is any part of your project unclear or confusing?"
+    },
+    {
+      "id": 6,
+      "categoryid": 2,
+      "question": "What do you want to be doing in 5 years? 10 years? 3 years?"
+    },
+    {
+      "id": 7,
+      "categoryid": 2,
+      "question": "What are your long term goals? Have you thought about them?"
+    },
+    {
+      "id": 8,
+      "categoryid": 2,
+      "question":
+        "Do you feel like you’re making progress on your big goals here? Why or why not?"
+    },
+    {
+      "id": 9,
+      "categoryid": 2,
+      "question":
+        "What’s one thing we could do today to help you with your long term goals?"
+    },
+    {
+      "id": 10,
+      "categoryid": 2,
+      "question":
+        "Do you feel we’re helping you advance your career at a pace you would like?"
+    },
+    {
+      "id": 11,
+      "categoryid": 2,
+      "question":
+        "Who do you really admire? Why? (People often admire those they want to become)"
+    },
+    {
+      "id": 12,
+      "categoryid": 2,
+      "question": "If you had millions of dollars, what would you do every day?"
+    },
+    {
+      "id": 13,
+      "categoryid": 2,
+      "question":
+        "What are your super powers? What powers would you like to develop?"
+    },
+    {
+      "id": 14,
+      "categoryid": 2,
+      "question":
+        "What are your big dreams in life? Are you making progress on them?"
+    },
+    {
+      "id": 15,
+      "categoryid": 2,
+      "question":
+        "Could you see yourself making progress on more of your goals here? What would need to change to do so?"
+    },
+    {
+      "id": 16,
+      "categoryid": 2,
+      "question":
+        "What work are you doing here that you feel is most in line with your long term goals?"
+    },
+    {
+      "id": 17,
+      "categoryid": 2,
+      "question": "As a kid, what did you want to be when you grew up?"
+    },
+    {
+      "id": 18,
+      "categoryid": 3,
+      "question":
+        "What is the company not doing today that we should do to better compete in the market?"
+    },
+    {
+      "id": 19,
+      "categoryid": 3,
+      "question":
+        "What’s one thing we’d be *crazy* not to do in the next quarter to improve our product?"
+    },
+    {
+      "id": 20,
+      "categoryid": 3,
+      "question": "How could we change our team meetings to be more effective?"
+    },
+    {
+      "id": 21,
+      "categoryid": 3,
+      "question": "If you were CEO, what’s the first thing you’d change?"
+    },
+    {
+      "id": 22,
+      "categoryid": 3,
+      "question":
+        "Do you think our company is loyal to its employees? Why or why not?"
+    },
+    {
+      "id": 23,
+      "categoryid": 3,
+      "question":
+        "Are there any aspects of our culture you wish you could change?"
+    },
+    {
+      "id": 24,
+      "categoryid": 3,
+      "question": "What are your favorite parts about our culture?"
+    },
+    {
+      "id": 25,
+      "categoryid": 3,
+      "question":
+        "Do you feel over-worked, under-worked, or just the right workload?"
+    },
+    {
+      "id": 26,
+      "categoryid": 3,
+      "question":
+        "Why do you think [employee who recently quit] left? What did they tell you?"
+    },
+    {
+      "id": 27,
+      "categoryid": 3,
+      "question": "What would convince you to leave for a job somewhere else?"
+    },
+    {
+      "id": 28,
+      "categoryid": 3,
+      "question":
+        "Which company values do you like the most? Which the least? Why?"
+    },
+    {
+      "id": 29,
+      "categoryid": 3,
+      "question": "What is the #1 Problem at our company? Why?"
+    },
+    {
+      "id": 30,
+      "categoryid": 3,
+      "question":
+        "Do you feel like you’re on the same page with your team? How often do you think you need meetings to ensure you stay that way?"
+    },
+    {
+      "id": 31,
+      "categoryid": 3,
+      "question":
+        "What do you think are the long term prospects of the company?"
+    },
+    {
+      "id": 32,
+      "categoryid": 3,
+      "question":
+        "How many hours a day do you feel you’re productive? How could we help you be more productive?"
+    },
+    {
+      "id": 33,
+      "categoryid": 3,
+      "question": "How could we be more creative or innovative as a company?"
+    },
+    {
+      "id": 34,
+      "categoryid": 4,
+      "question": "Do you feel challenged at work? Are you learning new things?"
+    },
+    {
+      "id": 35,
+      "categoryid": 4,
+      "question": "What area of the company would you like to learn more about?"
+    },
+    {
+      "id": 36,
+      "categoryid": 4,
+      "question": "What skills would you like to develop right now?"
+    },
+    {
+      "id": 37,
+      "categoryid": 4,
+      "question":
+        "Who in the company would you like to learn from? What do you want to learn?"
+    },
+    {
+      "id": 38,
+      "categoryid": 4,
+      "question": "How do you prefer to receive feedback?"
+    },
+    {
+      "id": 39,
+      "categoryid": 4,
+      "question": "Do you feel you’re getting enough feedback?"
+    },
+    {
+      "id": 40,
+      "categoryid": 4,
+      "question":
+        "What’s a recent situation you wish you handled differently? What would you change?"
+    },
+    {
+      "id": 41,
+      "categoryid": 4,
+      "question": "What additional training or education would you like?"
+    },
+    {
+      "id": 42,
+      "categoryid": 4,
+      "question":
+        "Are there any roles in the company you’d like to learn more about?"
+    },
+    {
+      "id": 43,
+      "categoryid": 4,
+      "question":
+        "What do you think are the key skills for your role? How would you rate yourself for each of them?"
+    },
+    {
+      "id": 44,
+      "categoryid": 4,
+      "question":
+        "Is there an aspect of your job you would like more help or coaching?"
+    },
+    {
+      "id": 45,
+      "categoryid": 5,
+      "question": "What could I do as a manager to make your work easier?"
+    },
+    {
+      "id": 46,
+      "categoryid": 5,
+      "question":
+        "What do you like about my management style? What do you dislike?"
+    },
+    {
+      "id": 47,
+      "categoryid": 5,
+      "question": "Would you like more or less direction from me on your work?"
+    },
+    {
+      "id": 48,
+      "categoryid": 5,
+      "question": "What could I do to make you enjoy your work more?"
+    },
+    {
+      "id": 49,
+      "categoryid": 5,
+      "question": "How can I better support you?"
+    },
+    {
+      "id": 50,
+      "categoryid": 5,
+      "question": "What would you like to know about me?"
+    },
+    {
+      "id": 51,
+      "categoryid": 5,
+      "question": "Is there a situation you’d like my help with?"
+    },
+    {
+      "id": 52,
+      "categoryid": 5,
+      "question":
+        "What is something I could do better? What is a criticism you have for me?"
+    },
+    {
+      "id": 53,
+      "categoryid": 6,
+      "question": "Are you happy?"
+    },
+    {
+      "id": 54,
+      "categoryid": 6,
+      "question": "Are you happy working here?"
+    },
+    {
+      "id": 55,
+      "categoryid": 6,
+      "question": "Are you happy with your recent work? Why or why not?"
+    },
+    {
+      "id": 56,
+      "categoryid": 6,
+      "question": "What would make you leave this job for another?"
+    },
+    {
+      "id": 57,
+      "categoryid": 6,
+      "question": "What’s one thing we do to help you enjoy your job more?"
+    },
+    {
+      "id": 58,
+      "categoryid": 6,
+      "question": "Is your job what you expected when you accepted it?"
+    },
+    {
+      "id": 59,
+      "categoryid": 6,
+      "question": "What worries you?"
+    },
+    {
+      "id": 60,
+      "categoryid": 6,
+      "question": "What’s on your mind?"
+    },
+    {
+      "id": 61,
+      "categoryid": 6,
+      "question":
+        "What’s not fun about working here? What do you enjoy most about working here?"
+    },
+    {
+      "id": 62,
+      "categoryid": 6,
+      "question":
+        "Who are you friends with at work? (Shown to be a key to enjoying your job)"
+    },
+    {
+      "id": 63,
+      "categoryid": 6,
+      "question": "When was the time you enjoyed working here the most?"
+    },
+    {
+      "id": 64,
+      "categoryid": 6,
+      "question": "What do you feel is your greatest accomplishment here?"
+    },
+    {
+      "id": 65,
+      "categoryid": 6,
+      "question":
+        "What’s something you feel is undervalued that you contribute to the team?"
+    },
+    {
+      "id": 66,
+      "categoryid": 6,
+      "question": "What part of your job do you wish you didn’t have to do?"
+    },
+    {
+      "id": 67,
+      "categoryid": 7,
+      "question": "How are you? How is life outside of work?"
+    },
+    {
+      "id": 68,
+      "categoryid": 7,
+      "question": "How do you feel your work/life balance is right now?"
+    },
+    {
+      "id": 69,
+      "categoryid": 7,
+      "question":
+        "How do you feel about your current compensation (salary and benefits)?"
+    },
+    {
+      "id": 70,
+      "categoryid": 7,
+      "question":
+        "What’s one thing we could change about work for you that would improve your personal life?"
+    },
+    {
+      "id": 71,
+      "categoryid": 7,
+      "question":
+        "If around a holiday: What did you do for [Holiday]? How was it?"
+    },
+    {
+      "id": 72,
+      "categoryid": 7,
+      "question": "How are your parents/grandparents? Where do they live?"
+    },
+    {
+      "id": 73,
+      "categoryid": 7,
+      "question":
+        "If they have children: How is [name of child] doing? (Ask something related to their age like starting school, playing sports, or other interests.)"
+    },
+    {
+      "id": 74,
+      "categoryid": 7,
+      "question":
+        "What do you like to do in your free time? What are your hobbies?"
+    },
+    {
+      "id": 75,
+      "categoryid": 7,
+      "question":
+        "What did you do for fun in the past that you haven’t had as much time for lately?"
+    },
+    {
+      "id": 76,
+      "categoryid": 7,
+      "question":
+        "What drives you? What motivates you to come to work each day?"
+    },
+    {
+      "id": 77,
+      "categoryid": 8,
+      "question":
+        "Who on the team do you have the most difficulty working with? Why?"
+    },
+    {
+      "id": 78,
+      "categoryid": 8,
+      "question":
+        "How would you describe the work environment on the team? Is it more competitive or collaborative?"
+    },
+    {
+      "id": 79,
+      "categoryid": 8,
+      "question": "How could we improve the ways our team works together?"
+    },
+    {
+      "id": 80,
+      "categoryid": 8,
+      "question": "Who is kicking ass on the team? What have they done?"
+    },
+    {
+      "id": 81,
+      "categoryid": 8,
+      "question": "Who do you admire on the team? Why?"
+    },
+    {
+      "id": 82,
+      "categoryid": 8,
+      "question": "Do you feel your ideas are heard by the team and I?"
+    },
+    {
+      "id": 83,
+      "categoryid": 8,
+      "question": "Who would you like to work more often with? Why?"
+    },
+    {
+      "id": 84,
+      "categoryid": 8,
+      "question": "Is everyone pulling their weight on the team?"
+    },
+    {
+      "id": 85,
+      "categoryid": 8,
+      "question":
+        "Do you help other members on the team? Do others help you when you need it?"
+    },
+    {
+      "id": 86,
+      "categoryid": 8,
+      "question":
+        "What’s one thing we should change about how our team works together?"
+    },
+    {
+      "id": 87,
+      "categoryid": 8,
+      "question":
+        "What characteristics make someone a good fit for our team? How would you look for those characteristics in an interview?"
+    },
+    {
+      "id": 88,
+      "categoryid": 8,
+      "question":
+        "What’s the biggest thing you’d like to change about our team?"
+    },
+    {
+      "id": 89,
+      "categoryid": 8,
+      "question": "What do you like most about working on our team?"
+    },
+    {
+      "id": 90,
+      "categoryid": 8,
+      "question":
+        "Has anyone on the team ever made you feel uncomfortable? What happened?"
+    },
+    {
+      "id": 91,
+      "categoryid": 9,
+      "question":
+        "What part of the day do you have the most energy and focus? When do you have the least? What changes could we make to your work schedule to accommodate this?"
+    },
+    {
+      "id": 92,
+      "categoryid": 9,
+      "question":
+        "What are 3 things would you buy to improve your productivity if money was no object?"
+    },
+    {
+      "id": 93,
+      "categoryid": 9,
+      "question":
+        "What is an ideal, productive day at work for you? Walk me through the day…"
+    },
+    {
+      "id": 94,
+      "categoryid": 9,
+      "question":
+        "What’s an inexpensive thing we could do to improve our office environment?"
+    },
+    {
+      "id": 95,
+      "categoryid": 9,
+      "question": "What are the biggest time wasters for you each week?"
+    },
+    {
+      "id": 96,
+      "categoryid": 9,
+      "question": "What makes you excited and motivated to work on a project?"
+    },
+    {
+      "id": 97,
+      "categoryid": 9,
+      "question":
+        "When you get stuck on something, what is your process for getting unstuck? Who do you turn to for help?"
+    },
+    {
+      "id": 98,
+      "categoryid": 9,
+      "question":
+        "What part of your work routine do you find is working best? What area do you want to improve?"
+    },
+    {
+      "id": 99,
+      "categoryid": 9,
+      "question":
+        "Are there any meetings or discussions you feel you should be a part of that you’re not? Are you included in any you don’t want to be a part of?"
+    },
+    {
+      "id": 100,
+      "categoryid": 9,
+      "question": "What do you do when you feel low energy or unmotivated?"
+    },
+    {
+      "id": 101,
+      "categoryid": 9,
+      "question":
+        "How can I help…? (be more productive/happier at work/enjoy work more/etc)"
+    }
+  ]
+}
