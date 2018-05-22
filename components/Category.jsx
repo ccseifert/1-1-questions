@@ -25,7 +25,7 @@ class Category extends React.Component {
       <div className="category">
         <h2>{this.categoryName}</h2>
         {preload.questions
-          .filter(question => question.categoryid === this.categoryid) // TODO: get the category input
+          .filter(question => question.categoryid === this.categoryid)
           .map(question => (
             <QuestionCard key={question.id} {...question} random={false} />
           ))}

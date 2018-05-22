@@ -28,6 +28,7 @@ class QuestionCard extends React.Component {
       box-shadow: 5px 5px 10px grey;
     `;
 
+    // TODO: add onClick action to replace card
     const replaceLink =
       this.random === true ? <Link to="#">Replace this card</Link> : "";
 
