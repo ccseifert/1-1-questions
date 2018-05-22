@@ -2,39 +2,39 @@
   "categories": [
     {
       "id": 1,
-      "category": "Short Term Goals"
+      "name": "Short Term Goals"
     },
     {
       "id": 2,
-      "category": "Long Term Goals"
+      "name": "Long Term Goals"
     },
     {
       "id": 3,
-      "category": "Company Improvement"
+      "name": "Company Improvement"
     },
     {
       "id": 4,
-      "category": "Self Improvement"
+      "name": "Self Improvement"
     },
     {
       "id": 5,
-      "category": "Manager Improvement"
+      "name": "Manager Improvement"
     },
     {
       "id": 6,
-      "category": "Happiness"
+      "name": "Happiness"
     },
     {
       "id": 7,
-      "category": "Personal Life"
+      "name": "Personal Life"
     },
     {
       "id": 8,
-      "category": "Team Relationships"
+      "name": "Team Relationships"
     },
     {
       "id": 9,
-      "category": "Work Habits"
+      "name": "Work Habits"
     }
   ],
   "questions": [
@@ -198,7 +198,7 @@
     {
       "id": 29,
       "categoryid": 3,
-      "question": "What is the #1 Problem at our company? Why?"
+      "question": "What is the #1 problem at our company? Why?"
     },
     {
       "id": 30,

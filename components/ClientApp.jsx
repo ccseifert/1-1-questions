@@ -9,12 +9,15 @@ const FourOhFour = () => <h1>404</h1>;
 
 const App = () => (
   <div>
-    <h1>Potential 1:1 Questions</h1>
+    <header>
+      <h1>Potential 1:1 Questions</h1>
+      <a href="/">Home</a>
+    </header>
     <BrowserRouter>
       <div className="app">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/category" component={Category} />
+          <Route exact path="/category/:categoryid" component={Category} />
           <Route exact path="/random" component={Random} />
           <Route component={FourOhFour} />
         </Switch>

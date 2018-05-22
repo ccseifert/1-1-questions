@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import QuestionCard from "./QuestionCard";
-// import preload from "../data.json";
+import preload from "../data.json";
 
 const Home = () => (
   <div>
@@ -9,9 +8,11 @@ const Home = () => (
       <li>
         <Link to="/random">Random selection</Link>
       </li>
-      <li>
-        <Link to="/category">View by category</Link>
-      </li>
+      {preload.categories.map(category => (
+        <li>
+          <a href={`/category/${category.id}`}>{category.name}</a>
+        </li>
+      ))}
     </ul>
   </div>
 );

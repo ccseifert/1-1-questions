@@ -3,32 +3,45 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const Wrapper = styled.div`
-  width: 80%;
-  border: 2px solid #333;
-  border-radius: 6px;
-  margin: 25px;
-  padding: 10px;
-  overflow: hidden;
-  box-shadow: 5px 5px 10px grey;
-`;
+class QuestionCard extends React.Component {
+  static propTypes = {
+    id: PropTypes.number.isRequired,
+    question: PropTypes.string.isRequired,
+    random: PropTypes.bool.isRequired,
+  };
 
-const QuestionCard = props => (
-  <Wrapper>
-    <div>
-      <h2>
-        {props.id}. {props.question}
-      </h2>
-      <div className="center">
-        <Link to="#">Replace this card</Link>
-      </div>
-    </div>
-  </Wrapper>
-);
+  constructor(props) {
+    super(props);
+    this.id = props.id;
+    this.question = props.question;
+    this.random = props.random;
+  }
 
-QuestionCard.propTypes = {
-  id: PropTypes.number.isRequired,
-  question: PropTypes.string.isRequired,
-};
+  render() {
+    const Wrapper = styled.div`
+      width: 80%;
+      border: 2px solid #333;
+      border-radius: 6px;
+      margin: 25px;
+      padding: 10px;
+      overflow: hidden;
+      box-shadow: 5px 5px 10px grey;
+    `;
+
+    const replaceLink =
+      this.random === true ? <Link to="#">Replace this card</Link> : "";
+
+    return (
+      <Wrapper>
+        <div>
+          <h2>
+            {this.id}. {this.question}
+          </h2>
+          <div className="center">{replaceLink}</div>
+        </div>
+      </Wrapper>
+    );
+  }
+}
 
 export default QuestionCard;
